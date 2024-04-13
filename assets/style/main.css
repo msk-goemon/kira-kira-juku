@@ -268,8 +268,10 @@ header {
   position: relative;
   bottom: 36px;
   display: flex;
+  max-width: 1140px;
   justify-content: space-around;
   padding: 0 76px;
+  margin: auto;
 }
 
 .action-list__button {
@@ -642,6 +644,10 @@ courseセクションのテスト設定
 
 .section__title-bottom {
   margin-bottom: 38px;
+}
+
+.price-title {
+  letter-spacing: 6px;
 }
 
 .price-table {
