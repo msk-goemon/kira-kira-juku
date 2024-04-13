@@ -724,8 +724,9 @@ courseセクションのテスト設定
 
 
 .copyright {
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
   background-color: #DDD;
   padding: 50px 0 51px;
 }
@@ -973,7 +974,7 @@ courseセクションのテスト設定
 
 .main-sp__title {
   padding-top: 34px;
-  padding-left: 31px;
+  padding-left: 16px;
 }
 
 .main-sp__achievements-text__sentence {
@@ -1149,7 +1150,7 @@ courseセクションのテスト設定
 
 .course__title {
   margin-left: 14px;
-  margin-top: 71px;
+  margin-top: -9px;
 }
 
 .tab-img {
@@ -1246,8 +1247,9 @@ courseセクションのテスト設定
 }
 
 .tab {
+  width: 164px;
   font-size: 18px;
-  padding: 26px 20px;
+  padding: 26px 0;
 }
 
 .tab-button {
@@ -1271,7 +1273,7 @@ courseセクションのテスト設定
 }
 
 .price-table {
-  margin: 20px auto 63px;
+  margin: -3px auto 63px;
 }
 
 .price-table__header-cell {
@@ -1390,7 +1392,7 @@ courseセクションのテスト設定
 
 .copyright {
   font-size: 13px;
-  padding: 35px 0 51px;
+  padding: 35px 0 51px 14px;
 }
 
 
