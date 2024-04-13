@@ -1198,9 +1198,17 @@ courseセクションのテスト設定
   display: block;
 }
 
+.tab-contents {
+  padding: 21px 11px 32px;
+}
+
 .tab__contents--up,
 .tab__contents--down {
   display: block;
+}
+
+.tab__contents--down {
+  margin-top: 31px;
 }
 
 .tab__contents-wrap--left,
@@ -1212,13 +1220,25 @@ courseセクションのテスト設定
   margin-left: 0;
 }
 
+.tab__contents-text {
+  margin-top: 15px;
+}
+
+.tab__contents-text p {
+  margin-left: 5px;
+}
+
+.tab__contents-wrap--right {
+  margin-top: 32px;
+}
+
 .tab__contents-text--right {
   margin-left: 0;
 }
 
 .tab {
   font-size: 18px;
-  padding: 26px 14px;
+  padding: 26px 20px;
 }
 
 .tab-button {
