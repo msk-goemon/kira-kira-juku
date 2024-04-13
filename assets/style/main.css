@@ -199,7 +199,7 @@ header {
 
 .section {
   max-width: 1200px;
-  margin:78px auto 0;
+  margin:80px auto 0;
 }
 
 /* トップ画像の文字配列の設定 **********************************************************/
@@ -389,6 +389,15 @@ h2 span {
   border-radius: 35px; /* 角を丸くするのに適切な値（25%から25pxへ変更） */
   cursor: pointer; /* ホバー時にカーソルをポインターに */
   transition: opacity 0.3s ease; /* 透明度の変化にアニメーションを設定 */
+}
+
+.apply-section-top {
+  margin-top: 70px;
+  margin-bottom: 79px;
+}
+
+.apply-section-bottom {
+  margin-bottom: 0px;
 }
 
 .apply-section__button:hover {
@@ -1199,7 +1208,8 @@ courseセクションのテスト設定
 }
 
 .tab-contents {
-  padding: 21px 11px 32px;
+  padding: 21px 11px 56px;
+  margin-bottom: 63px;
 }
 
 .tab__contents--up,
@@ -1254,6 +1264,17 @@ courseセクションのテスト設定
 }
 
 /*料金セクションの設定  ***********************************/
+
+.section__title-bottom {
+  letter-spacing: 0.3em;
+  margin-top: 72px;
+  margin-left: 20px;
+}
+
+.price-table {
+  margin: 20px auto 63px;
+}
+
 .price-table__header-cell {
   font-size: 16px;
   padding: 24px 0;
