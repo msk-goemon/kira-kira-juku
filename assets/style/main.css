@@ -560,8 +560,7 @@ courseセクションのテスト設定
 }
 
 .tab {
-  /* width: calc(100% / 3); */
-  max-width: 560px;
+  width: calc(100% / 3);
   padding: 24px 88px;
   border-bottom: none;
   background: #F0F0F0;
@@ -1382,6 +1381,11 @@ courseセクションのテスト設定
   /* padding: auto 20px; を削除または修正 */
   margin: 0; /* p要素のデフォルトのマージンを解除 */
   padding-left: 16px;
+}
+
+.footer-sp-section_up:hover,
+.footer-sp-section_down:hover {
+  text-decoration: none;
 }
 
 .copyright {
