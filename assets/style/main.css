@@ -379,14 +379,35 @@ h2 span {
   text-align: center; /* テキストを中央揃えに */
 }
 
+.apply-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
 .apply-section__button {
   display: inline-block; /* ボタンとしてのスタイル */
-  margin: 24px auto 0; /* 上下に空間を追加し、左右マージンをautoにして中央揃えに */
+  margin-top: 24px; /* 上下に空間を追加し、左右マージンをautoにして中央揃えに */
   padding: 26px 49px 26px 71px; /* ボタンの内部の余白 */
   color: white;
   font-size: 24px;
   font-weight: bold;
   background-image: linear-gradient(to right, #0091EA, #00CFFD); /* ボタンの背景にグラデーションを設定 */
+  border: none; /* 枠線なし */
+  border-radius: 35px; /* 角を丸くするのに適切な値（25%から25pxへ変更） */
+  cursor: pointer; /* ホバー時にカーソルをポインターに */
+  transition: opacity 0.3s ease; /* 透明度の変化にアニメーションを設定 */
+}
+
+.apply-entry__button {
+  display: inline-block; /* ボタンとしてのスタイル */
+  width: 240px;
+  margin-top: 24px; /* 上下に空間を追加し、左右マージンをautoにして中央揃えに */
+  padding: 26px 49px 26px 71px; /* ボタンの内部の余白 */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #F6AA00;
   border: none; /* 枠線なし */
   border-radius: 35px; /* 角を丸くするのに適切な値（25%から25pxへ変更） */
   cursor: pointer; /* ホバー時にカーソルをポインターに */
@@ -404,6 +425,11 @@ h2 span {
 
 .apply-section__button:hover {
   opacity: 0.5; /* ホバー時に透明度を下げる */
+  text-decoration: none;
+}
+
+.apply-entry__button:hover {
+  opacity: 0.5;
   text-decoration: none;
 }
 
@@ -1132,9 +1158,23 @@ courseセクションのテスト設定
   margin: 0 36px;
 }
 
+.apply-buttons {
+  display: block;
+}
+
 .apply-section__button {
-  margin: 0;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
   padding: 23px 51px;
+  font-size: 20px;
+}
+
+.apply-entry__button {
+  display: block;
+  width: 200px;
+  padding: 23px 51px;
+  margin: 20px auto 0px;
   font-size: 20px;
 }
 
